@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, useEffect } from "react";
-import { getUserRole } from "@/services/api";
+import { getUserRole } from "../Services/api";
 
 const AppContext = createContext();
 
