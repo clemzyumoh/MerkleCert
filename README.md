@@ -131,3 +131,5 @@ Open Phantom → Settings → Secret Recovery Phrase → Paste it.
 
 Use "Add Account" to access both accounts.
 
+Deployed Link:
+https://merkle-cert.vercel.app/
