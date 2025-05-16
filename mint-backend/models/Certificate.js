@@ -1,4 +1,3 @@
-
 const mongoose = require("mongoose");
 
 const certificateSchema = new mongoose.Schema(
@@ -17,6 +16,8 @@ const certificateSchema = new mongoose.Schema(
       type: String,
       //required: true,
     },
+    solanaTx: { type: String }, // ✅ Add this field
+
     metadata: {
       type: Object,
       required: true,
@@ -25,14 +26,7 @@ const certificateSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    // merkleRoot: {
-    //   type: String,
-    //   required: true,
-    // },
-    // merkleProof: {
-    //   type: [String],
-    //   required: true,
-    // },
+  
 
     merkleRoot: {
       type: String,

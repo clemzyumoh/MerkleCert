@@ -94,11 +94,7 @@ const Settings = ({ darkMode, setDarkMode }) => {
               </button>
             </>
           ) : (
-            // <button
-            //   onClick={handleConnect}
-            //   className="px-4 py-2 mt-2 bg-blue-600 text-white rounded-md hover:bg-blue-500">
-            //   Connect Wallet
-            // </button>
+            
             <WalletMultiButton />
           )}
         </div>

@@ -73,6 +73,7 @@ const Dashboard = () => {
               imageURL={cert.imageURL}
               ipfsHash={cert.ipfsHash}
               merkleRoot={cert.merkleRoot}
+              solanaTx={cert.solanaTx}
             />
           ))}
         </div>

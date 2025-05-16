@@ -3,6 +3,7 @@ import axios from "axios";
 
 // Base URL for the backend API
 const BASE_URL = "https://merklecert-backend.onrender.com"; // Update with your backend URL
+//const BASE_URL = "http://localhost:5000/api"; // Update with your backend URL
 //const isFormData = data instanceof FormData;
 // Axios instance for reusable configurations
 const apiClient = axios.create({
@@ -102,7 +103,7 @@ const handleApiError = (error) => {
   return { message: error.message || "Unknown Error" };
 };
 
-// export {
+
 //   fetchCertificates,
 //   uploadCertificate,
 //   verifyCertificate,
